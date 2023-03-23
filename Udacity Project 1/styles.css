@@ -1,0 +1,42 @@
+/* add your CSS here */
+body {
+    width: 320px;
+    padding: 0px;
+    border: 0;
+    margin: auto;
+    background-color: black;
+    /* I used this website to learn how to center the body
+    https://dev.to/alexantoniades/css-layout-centering-techniques--608 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+  }
+div{
+    background-color: rgb(53, 46, 46);
+}
+h3{  
+    text-align: center;
+    padding: 5px;
+    border: ridge 5px  green;    
+}
+img{
+    border: ridge 5px  green; 
+    padding: 5px;  
+}
+.italic {
+    font-style:italic;
+}
+ul {
+    list-style-type: none;
+    padding: 5px;
+    border: ridge 5px  green;
+}
+span {
+    font-weight: bold;
+}
+p{
+    font: 12pt serif;
+    padding: 5px;
+    border: ridge 5px  green;
+}
